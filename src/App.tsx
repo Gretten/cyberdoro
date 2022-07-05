@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { DevContacts } from './components';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
         >
           Learn React
         </a>
+        <DevContacts />
       </header>
     </div>
   );

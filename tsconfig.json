@@ -24,8 +24,6 @@
     "@/*": ["src/*"],
     "@components": ["src/components/index.ts"],
     "@templates": ["src/templates/index.ts"],
-    "@pages": ["src/pages/index.ts"],
-    "@redux": ["src/redux/index.ts"]
   },
   "include": [
     "src"
