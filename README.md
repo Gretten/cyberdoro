@@ -1,4 +1,4 @@
-# A pomodoro timer with cyberpunk style. 
+# A pomodoro timer with a cyberpunk style. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
