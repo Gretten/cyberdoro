@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
-import { DevContacts } from './components';
+import { FrontButton } from './components';
 
 export const App = () => {
+
+  const handler = () => console.log('hello');
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -17,7 +20,12 @@ export const App = () => {
         >
           Learn React
         </a>
-        <DevContacts />
+        <FrontButton 
+          big
+          settedOn
+          text='pomodoro'
+          frontButtonHandler={handler}
+        />
       </header>
     </div>
   );

@@ -1,3 +1,27 @@
-.FrontButton {
-  font-size: 16px;
+.button {
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  user-select: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.settedOn {
+  background-color: aliceblue;
+  color: black;
+}
+
+.settedOff {
+  background-color: none;
+  color: aliceblue;
+}
+
+.big {
+  padding: 15px 15px;
+  font-size: 17px;
 }
