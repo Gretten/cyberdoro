@@ -1,0 +1,18 @@
+.appBackground {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+.appBackgroundImage {
+  transition: all 375ms ease-in-out;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}

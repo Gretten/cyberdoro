@@ -1,7 +1,7 @@
-export { AppContainer } from './AppContainer'
+
 export { Header } from './Header'
-export { Main } from './Main'
 export { SettingsPopup } from './SettingsPopup'
 export { TimerBottomPanel } from './TimerBottomPanel'
 export { TimerContainer } from './TimerContainer'
 export { TimerControlButtons } from './TimerControlButtons'
+export { AppBackground } from './AppBackground/AppBackground'
