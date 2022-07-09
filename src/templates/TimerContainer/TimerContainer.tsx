@@ -8,3 +8,4 @@ export const TimerContainer: FC<TimerContainerProps> = () => (
     TimerContainer Component
   </div>
 );
+
