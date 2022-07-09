@@ -1,0 +1,26 @@
+.radioInput {
+  display: none;
+}
+
+.radioLabel {
+  padding: 5px 15px;
+  border: 1px solid;
+  border-radius: 30px;
+  user-select: none;
+  cursor: pointer;
+  background: rgba(165, 165, 241, .1);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  transition: background .5s;
+}
+
+.radioLabel:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  
+}
+
+.radioInput:checked + label {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
