@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Logo } from './components';
+import { TimerStartButton } from './components/TimerStartButton';
 
 export const App = () => {
+
+  const handleTimer = () => {
+    console.log('hello')
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +22,9 @@ export const App = () => {
         >
           Learn React
         </a>
-        <Logo
-            logoText="Cyberdoro"
-            logoElSize={3}
+        <TimerStartButton
+            text="text"
+            handleTimer={handleTimer}
         />
       </header>
     </div>

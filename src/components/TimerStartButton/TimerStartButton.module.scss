@@ -1,0 +1,17 @@
+.timerStartButton {
+  padding: 15px 25px;
+  border: 1px solid white;
+  border-radius: 30px;
+  user-select: none;
+  cursor: pointer;
+  background: rgba(165, 165, 241, .1);
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: background .5s;
+  font-weight: bold;
+}
+
+.timerStartButton:hover {
+  background: rgba(165, 165, 241, .0);
+  color: rgb(255, 255, 255);
+}
