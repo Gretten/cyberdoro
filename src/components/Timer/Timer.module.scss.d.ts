@@ -1,1 +1,1 @@
-export const Timer: string;
+export const timer: string;
