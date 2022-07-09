@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { RadioButton } from './components';
+import { Logo } from './components';
 
 export const App = () => {
   return (
@@ -17,17 +17,9 @@ export const App = () => {
         >
           Learn React
         </a>
-        <RadioButton
-          id="1"
-          name="animals"
-          value='dog'
-          text="pomodoro"
-        />
-        <RadioButton
-          id="2"
-          name="animals"
-          value='cat'
-          text="short break"
+        <Logo
+            logoText="Cyberdoro"
+            logoElSize={3}
         />
       </header>
     </div>
